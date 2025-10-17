@@ -1,0 +1,11 @@
+pandas
+numpy
+jupyterlab
+matplotlib
+seaborn
+plotly
+folium
+geopandas
+scikit-learn
+missingno
+notebook
