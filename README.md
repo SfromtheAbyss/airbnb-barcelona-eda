@@ -15,7 +15,7 @@ El análisis forma parte de mi portafolio como **Data Scientist Junior**, demost
 ---
 
 ## 🧱 Estructura del Proyecto
-
+```
 airbnb-eda/
 │
 ├── data/ # Datasets originales (no subidos por tamaño)
@@ -37,7 +37,7 @@ airbnb-eda/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 ---
 
 ## 🔍 Principales Insights
@@ -67,6 +67,9 @@ Existe una correlación positiva entre **disponibilidad anual y número de rese�
 ### 🔥 Mapa de correlaciones entre variables
 ![Heatmap de correlaciones](reports/figures/heatmap_correlacion.png)
 
+### ⏱️​ Evolución anual por número de reseñas
+![Evolucion anual numero reseñas](reports/figures/Evolucion_anual_numero_resenyas.png)
+
 ### 🌍 Mapa interactivo de Airbnb Barcelona
 👉 [Ver mapa interactivo](reports/figures/mapa_airbnb_bcn.html)
 
@@ -75,20 +78,23 @@ Existe una correlación positiva entre **disponibilidad anual y número de rese�
 ## ⚙️ Instalación y Uso
 
 ### 1️⃣ Clonar el repositorio
-```bash
+```
 git clone git@github.com:TU_USUARIO/airbnb-barcelona-eda.git
 cd airbnb-barcelona-eda
-
+```
 ### 2️⃣ Crear entorno virtual
+```
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
-
+```
 ### 3️⃣ Instalar dependencias
+```
 pip install -r requirements.txt
-
+```
 ### 4️⃣ Ejecutar el análisis
+```
 jupyter notebook notebooks/airbnb_eda_barcelona.ipynb
-
+```
 ---
 
 ## 🧠 Tecnologías y Librerías
@@ -128,4 +134,4 @@ Crear dashboard interactivo con Streamlit
 
 ---
 
-## ✨ “Los datos cuentan historias. Nuestra labor es aprender a escucharlas.”
+### ✨ “Los datos cuentan historias. Nuestra labor es aprender a escucharlas.”
