@@ -1,20 +1,20 @@
-# 🏙️ Análisis Exploratorio de Airbnb en Barcelona
+# 🏙️ Airbnb Exploratory Data Analysis (EDA) - Barcelona
 
-**Autor:** [Sorrow Grajales](https://github.com/SfromtheAbyss)  
-**Fecha:** Octubre 2025  
-**Tecnologías:** Python, Pandas, Seaborn, Folium, Plotly  
-
----
-
-## 📌 Descripción del Proyecto
-
-Este proyecto realiza un **Análisis Exploratorio de Datos (EDA)** sobre el conjunto de datos de alojamientos de **Airbnb en Barcelona**, con el objetivo de comprender los factores que influyen en los precios, la distribución geográfica de los anuncios y el comportamiento temporal de las reseñas.
-
-El análisis forma parte de mi portafolio como **Data Scientist Junior**, demostrando habilidades en análisis de datos, visualización y comunicación de resultados.
+**Author:** [Sorrow Grajales](https://github.com/SfromtheAbyss)  
+**Date:** October 2025  
+**Technologies:** Python, Pandas, Seaborn, Folium, Plotly  
 
 ---
 
-## 🧱 Estructura del Proyecto
+## 📌 Project Description
+
+This project performs an **Exploratory Data Analysis (EDA)** on the **Airbnb listings dataset in Barcelona**, aiming to understand the factors affecting prices, the geographic distribution of listings, and temporal trends in reviews.
+
+The analysis is part of my portfolio as a **Junior Data Scientist**, demonstrating skills in data analysis, visualization, and communication of results.
+
+---
+
+## 🧱 Project Structure
 ```
 airbnb-eda/
 │
@@ -40,92 +40,88 @@ airbnb-eda/
 ```
 ---
 
-## 🔍 Principales Insights
+## 🔍 Key Insights
 
-📊 **Distribución de precios:**  
-La mayoría de alojamientos se concentran entre **50 € y 200 € por noche**, con valores atípicos en zonas premium como el Eixample o Sarrià.
+📊 **Price Distribution:**  
+Most listings are priced between **€50 and €200 per night**, with outliers in premium neighborhoods such as Eixample and Sarrià.
 
-📍 **Distribución geográfica:**  
-Los barrios más activos son **Eixample, Ciutat Vella y Gràcia**, concentrando la mayoría de anuncios.
+📍 **Geographic Distribution:**  
+The busiest neighborhoods are **Eixample, Ciutat Vella, and Gràcia**, concentrating most listings.
 
-📈 **Tendencia temporal:**  
-El número de reseñas creció de forma constante entre 2014 y 2019, mostrando el auge del turismo urbano en Barcelona, seguido de una ligera caída post-pandemia.
+📈 **Temporal Trends:**  
+The number of reviews steadily grew from 2014 to 2019, reflecting the rise of urban tourism in Barcelona, followed by a slight drop post-pandemic.
 
-🧩 **Correlaciones:**  
-Existe una correlación positiva entre **disponibilidad anual y número de reseñas**, mientras que el precio muestra baja correlación con las demás variables.
-
----
-
-## 📊 Visualizaciones Destacadas
-
-### 💸 Distribución de precios
-![Distribución de precios](reports/figures/distribucion_precios.png)
-
-### 🏘️ Top 20 barrios con más alojamientos
-![Top barrios](reports/figures/top20_barrios.png)
-
-### 🔥 Mapa de correlaciones entre variables
-![Heatmap de correlaciones](reports/figures/heatmap_correlacion.png)
-
-### ⏱️​ Evolución anual por número de reseñas
-![Evolucion anual numero reseñas](reports/figures/Evolucion_anual_numero_resenyas.png)
-
-### 🌍 Mapa interactivo de Airbnb Barcelona
-👉 [Ver mapa interactivo](reports/figures/mapa_airbnb_bcn.html)
+🧩 **Correlations:**  
+There is a positive correlation between **annual availability and number of reviews**, while price shows low correlation with other variables.
 
 ---
 
-## ⚙️ Instalación y Uso
+## 📊 Key Visualizations
 
-### 1️⃣ Clonar el repositorio
+### 💸 Price Distribution
+![Price Distribution](reports/figures/price_distribution.png)
+
+### 🏘️ Top 20 Neighborhoods with Most Listings
+![Top Neighborhoods](reports/figures/top20_neighborhoods.png)
+
+### 🔥 Correlation Heatmap
+![Correlation Heatmap](reports/figures/correlation_heatmap.png)
+
+### ⏱️ Annual Trend of Reviews
+![Annual Reviews Trend](reports/figures/annual_reviews_trend.png)
+
+### 🌍 Interactive Map of Airbnb Listings in Barcelona
+👉 [View Interactive Map](reports/figures/airbnb_bcn_map.html)
+
+---
+
+## ⚙️ Installation & Usage
+
+### 1️⃣ Clone the repository
 ```
 git clone git@github.com:TU_USUARIO/airbnb-barcelona-eda.git
 cd airbnb-barcelona-eda
 ```
-### 2️⃣ Crear entorno virtual
+### 2️⃣ Create a virtual environment
 ```
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 ```
-### 3️⃣ Instalar dependencias
+### 3️⃣ Install dependencies
 ```
 pip install -r requirements.txt
 ```
-### 4️⃣ Ejecutar el análisis
+### 4️⃣ Run the analysis
 ```
 jupyter notebook notebooks/airbnb_eda_barcelona.ipynb
 ```
 ---
 
-## 🧠 Tecnologías y Librerías
+## 🧠 Technologies & Libraries
 
-Python 3.12
+· Python 3.12
 
-Pandas – Limpieza y manipulación de datos
+· Pandas – Data cleaning and manipulation
 
-NumPy – Cálculos numéricos
+· NumPy – Numerical computations
 
-Matplotlib & Seaborn – Visualización estática
+· Matplotlib & Seaborn – Static visualizations
 
-Plotly – Visualización interactiva
+· Plotly – Interactive visualizations
 
-Folium – Mapas interactivos geoespaciales
+· Folium – Geospatial interactive maps
 
-Jupyter Notebook – Entorno de análisis reproducible
+· Jupyter Notebook – Reproducible analysis environment
 
----
+## 💡 Next Steps
 
-## 💡 Próximos pasos
+Model prices using Linear Regression and XGBoost
 
-Modelar precios con regresión lineal y XGBoost
+Add sentiment analysis of reviews (NLP)
 
-Añadir análisis de sentimiento de reseñas (NLP)
+Build an interactive dashboard with Streamlit
 
-Crear dashboard interactivo con Streamlit
-
----
-
-## 👤 Autor
+## 👤 Author
 
 📌 Sorrow Grajales
 📍 Barcelona, España
@@ -134,4 +130,4 @@ Crear dashboard interactivo con Streamlit
 
 ---
 
-### ✨ “Los datos cuentan historias. Nuestra labor es aprender a escucharlas.”
+### ✨ "Data tells stories. Our job is to learn how to listen."”
